@@ -15,7 +15,7 @@
 	<description>谷粒商城商品服务</description>
 
 	<properties>
-		<java.version>1.8</java.version>
+		<java.version>14</java.version>
 		<spring-cloud.version>Hoxton.SR8</spring-cloud.version>
 	</properties>
 
@@ -46,6 +46,13 @@
 			<artifactId>gulimall-common</artifactId>
 			<version>1.0.0</version>
 		</dependency>
+
+<!--		<dependency>-->
+<!--			<groupId>com.aliyun.oss</groupId>-->
+<!--			<artifactId>aliyun-sdk-oss</artifactId>-->
+<!--			<version>3.10.2</version>-->
+<!--		</dependency>-->
+
 	</dependencies>
 
 	<dependencyManagement>
